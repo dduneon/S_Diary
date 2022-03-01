@@ -1,16 +1,32 @@
-<img src="https://user-images.githubusercontent.com/54762273/154876984-393001ef-d35a-459f-ab40-e259f461eca4.png" align=left width=120 height=80>
 
-## :memo: S Diary
+### &nbsp;&nbsp; :memo: S Diary
+
+<img src="https://user-images.githubusercontent.com/54762273/155878293-559f6e0f-f516-4ade-af3c-5f84187ff339.png" align=left >
+
 
 ![한줄일기](https://user-images.githubusercontent.com/54762273/154873330-50e5637a-85f6-44fb-9248-246010a77442.png)
 
 
 <br>
 
-<table align="center">
+<table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/54762273/154296621-ecdf539b-8635-4447-bf69-d0d45ece072c.png" width="300px" height="300px" /> </tr>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156147839-d03e0d8c-2689-4754-a345-499e3bfc2520.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156138875-21a50a04-fa8a-48f8-bbf9-254ebd631a83.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156139436-7ca6899d-a28b-4440-8eb6-85b17ac08665.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156139607-193b9619-1d12-493f-a96f-7d886bd142ee.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156140592-38fa5af1-1efb-4dde-b6fe-c08626f96f86.gif"></td>
+
+  </tr>
+  <tr>
+    <td align="center"><b>스플래시</b></td>
+    <td align="center"><b>한줄 목록 / 삭제</b></td>
+    <td align="center"><b>오늘 한줄</b></td>
+      <td align="center"><b>기분 통계</b></td>
+    <td align="center"><b>수정</b></td>
+  </tr>
 </table>
+<br>
 
 <br>
 
