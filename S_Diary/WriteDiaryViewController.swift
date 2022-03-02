@@ -18,17 +18,16 @@ class WriteDiaryViewController: UIViewController {
     @IBOutlet weak var feelButton3: UIButton!
     @IBOutlet weak var feelButton4: UIButton!
     @IBOutlet weak var feelButton5: UIButton!
-    @IBOutlet weak var label1: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         todayLabel.text = dateToString(date: Date())
-        label1.font = UIFont(name: "국립박물관문화재단클래식L", size: 15)
     }
     
     private func dateToString(date: Date) -> String {
         let formatter = DateFormatter()
-        formatter.dateFormat = "M월 d일(EEEEE)"
+        formatter.dateFormat = "M월 d일 EEEE"
         formatter.locale = Locale(identifier: "ko_KR")
         return formatter.string(from: date)
     }

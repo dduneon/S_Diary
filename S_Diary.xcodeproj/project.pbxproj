@@ -19,6 +19,7 @@
 		BFC8AFC927C4D1BB00A03774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC8AFC827C4D1BB00A03774 /* Assets.xcassets */; };
 		BFC8AFCC27C4D1BB00A03774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC8AFCA27C4D1BB00A03774 /* LaunchScreen.storyboard */; };
 		BFCF894A27CF4A7B00BB0545 /* MuseumClassicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFCF894827CF480000BB0545 /* MuseumClassicLight.ttf */; };
+		BFCF894E27CF911B00BB0545 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCF894D27CF911B00BB0545 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BFC8AFCB27C4D1BB00A03774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFC8AFCD27C4D1BB00A03774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCF894827CF480000BB0545 /* MuseumClassicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseumClassicLight.ttf; sourceTree = "<group>"; };
+		BFCF894D27CF911B00BB0545 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				BFC7F16527C76C4D0076EF49 /* MyLocationViewController.swift */,
 				BFC7F16727C76D810076EF49 /* WriteDiaryViewController.swift */,
 				BFC7F16927C76DA30076EF49 /* StatViewController.swift */,
+				BFCF894D27CF911B00BB0545 /* RoundButton.swift */,
 			);
 			path = S_Diary;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCF894E27CF911B00BB0545 /* RoundButton.swift in Sources */,
 				BFC8AFC427C4D1BA00A03774 /* ViewController.swift in Sources */,
 				BFC7F16827C76D810076EF49 /* WriteDiaryViewController.swift in Sources */,
 				BFC7F16427C6982D0076EF49 /* Diary.swift in Sources */,
