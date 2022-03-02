@@ -1,26 +1,46 @@
-<img src="https://user-images.githubusercontent.com/54762273/154876984-393001ef-d35a-459f-ab40-e259f461eca4.png" align=left width=120 height=80>
 
-## :memo: S Diary
+### &nbsp;&nbsp; :memo: S Diary
+
+<img src="https://user-images.githubusercontent.com/54762273/155878293-559f6e0f-f516-4ade-af3c-5f84187ff339.png" align=left >
+
 
 ![한줄일기](https://user-images.githubusercontent.com/54762273/154873330-50e5637a-85f6-44fb-9248-246010a77442.png)
 
 
 <br>
 
-<table align="center">
+<table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/54762273/154296621-ecdf539b-8635-4447-bf69-d0d45ece072c.png" width="300px" height="300px" /> </tr>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156147839-d03e0d8c-2689-4754-a345-499e3bfc2520.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156138875-21a50a04-fa8a-48f8-bbf9-254ebd631a83.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156139436-7ca6899d-a28b-4440-8eb6-85b17ac08665.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156139607-193b9619-1d12-493f-a96f-7d886bd142ee.gif"></td>
+    <td><img width="200" src="https://user-images.githubusercontent.com/54762273/156140592-38fa5af1-1efb-4dde-b6fe-c08626f96f86.gif"></td>
+
+  </tr>
+  <tr>
+    <td align="center"><b>스플래시</b></td>
+    <td align="center"><b>한줄 목록 / 삭제</b></td>
+    <td align="center"><b>오늘 한줄</b></td>
+      <td align="center"><b>기분 통계</b></td>
+    <td align="center"><b>수정</b></td>
+  </tr>
 </table>
+<br>
 
 <br>
 
 
 ## 💭  Todo List
 
-- [ ] 메인 화면 만들기
-- [ ] 리스트 화면 만들기
-- [ ] 일기 작성 화면 만들기
-- [ ] 통계 화면 만들기
+- 감정 버튼 하나만 사이즈 다른 것
+- "이미지 선택" 이미지 사이즈 조절해야함 대체 이미지 찾아보는중
+- 레이아웃 재구성 하고 통계창 설정하기
+- 이미지 업로드하는 기능 추가
+- 오늘의 한줄 페이지 진짜 다이어리 느낌으로 백그라운드 설정해서 입력하게 하는것도 좋을듯?
+- 나의 위치 불러오는 라이브러리 찾아보기
+- 로딩 화면 구성하기
+- 어플 이미지 만들어서 적용하기
 
 <br>
 
