@@ -177,259 +177,255 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BZf-Cf-tjI">
-                                <rect key="frame" x="25" y="148" width="364" height="25"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BsL-5C-qUl">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="1월 1일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-o0-rc0">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="25"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="23"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="어느" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2D-1Y-grF">
-                                        <rect key="frame" x="60" y="0.0" width="38.5" height="25"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="21"/>
-                                        <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="맑은 날" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s01-IT-uMt">
-                                        <rect key="frame" x="108.5" y="0.0" width="66.5" height="25"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="21"/>
-                                        <color key="textColor" red="0.470672607421875" green="0.1374359130859375" blue="0.11328887939453125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="zPo-f0-uFC">
-                                        <rect key="frame" x="185" y="0.0" width="179" height="25"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="L3l-87-di8"/>
-                                </constraints>
-                            </stackView>
-                            <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-hd-Ehe">
-                                <rect key="frame" x="20" y="178" width="374" height="3"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="3" id="YSX-5m-oQc"/>
-                                </constraints>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h3Z-nV-9Vc">
-                                <rect key="frame" x="25" y="226" width="364" height="92"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘의 기분은 어때?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOy-nc-lV9">
-                                        <rect key="frame" x="0.0" y="0.0" width="147" height="19"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3N-av-TRG">
-                                        <rect key="frame" x="0.0" y="27" width="364" height="65"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0RK-Ly-jrO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="698"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Roe-C8-twt">
-                                                <rect key="frame" x="0.0" y="0.0" width="364" height="65"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qo6-hp-o5L" userLabel="Title View">
+                                                <rect key="frame" x="20" y="60" width="374" height="33"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG6-Jg-h8W">
-                                                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-8H-hnz" userLabel="Title Stack">
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="25"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="1월 1일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBc-Hn-nGX" userLabel="todayLabel">
+                                                                <rect key="frame" x="0.0" y="0.0" width="64.5" height="25"/>
+                                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="23"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="어느" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDj-dd-YZq">
+                                                                <rect key="frame" x="74.5" y="0.0" width="36.5" height="25"/>
+                                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="20"/>
+                                                                <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="맑은 날" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-u7-YcN" userLabel="weatherLabel">
+                                                                <rect key="frame" x="121" y="0.0" width="63" height="25"/>
+                                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="20"/>
+                                                                <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="cKt-je-7fx" userLabel="view">
+                                                                <rect key="frame" x="194" y="0.0" width="180" height="25"/>
+                                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            </view>
+                                                        </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" secondItem="YG6-Jg-h8W" secondAttribute="height" id="vDD-8A-RRc"/>
+                                                            <constraint firstAttribute="height" constant="25" id="VnS-8d-WIQ"/>
                                                         </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="smile1_48" imagePadding="0.0"/>
-                                                        <connections>
-                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="gYf-KQ-Hxy"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfy-L5-iKZ">
-                                                        <rect key="frame" x="75" y="0.0" width="64.5" height="65"/>
+                                                    </stackView>
+                                                    <view alpha="0.15000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mo2-y9-eTa" userLabel="bar">
+                                                        <rect key="frame" x="0.0" y="30" width="374" height="3"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" secondItem="Cfy-L5-iKZ" secondAttribute="height" id="nOR-oU-C1S"/>
+                                                            <constraint firstAttribute="height" constant="3" id="Aet-F2-Gwv"/>
                                                         </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="smile2_48" title=""/>
-                                                        <connections>
-                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="RW0-bf-qOg"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih4-JE-Kah">
-                                                        <rect key="frame" x="149.5" y="0.0" width="65" height="65"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="ih4-JE-Kah" secondAttribute="height" id="8b8-QU-2dU"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="smile3_48" title=""/>
-                                                        <connections>
-                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="HlO-C0-ptE"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCz-Rt-cYz">
-                                                        <rect key="frame" x="224.5" y="0.0" width="64.5" height="65"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="nCz-Rt-cYz" secondAttribute="height" id="bEs-KT-ki5"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="smile4_48" title=""/>
-                                                        <connections>
-                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="dHt-bs-1Gv"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tz0-yW-N6Z">
-                                                        <rect key="frame" x="299" y="0.0" width="65" height="65"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="tz0-yW-N6Z" secondAttribute="height" id="lvI-j2-BV0"/>
-                                                        </constraints>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" image="smile5_48" title=""/>
-                                                        <connections>
-                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="Tt6-Cy-O9c"/>
-                                                        </connections>
-                                                    </button>
+                                                    </view>
                                                 </subviews>
                                             </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="spM-iT-po5" userLabel="Feel Stack">
+                                                <rect key="frame" x="20" y="153" width="374" height="94"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘의 기분은 어때?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE3-5L-dtB" userLabel="titleLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="147" height="19"/>
+                                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m2P-84-JK9" userLabel="feelingsView">
+                                                        <rect key="frame" x="0.0" y="27" width="374" height="67"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="A6K-7i-eSV" userLabel="Feelings Stack">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="67"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-1a-j6F">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="b6A-1a-j6F" secondAttribute="height" id="dLZ-fk-KeI"/>
+                                                                        </constraints>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile1_48" imagePadding="0.0"/>
+                                                                        <connections>
+                                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="9hm-Zo-u2m"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8e-kf-I8C">
+                                                                        <rect key="frame" x="77" y="0.0" width="66.5" height="67"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="K8e-kf-I8C" secondAttribute="height" id="dvV-6R-Si2"/>
+                                                                        </constraints>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile2_48" title=""/>
+                                                                        <connections>
+                                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="sRA-Ed-XTV"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02T-Dm-JsO">
+                                                                        <rect key="frame" x="153.5" y="0.0" width="67" height="67"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="02T-Dm-JsO" secondAttribute="height" id="wYe-wY-5o6"/>
+                                                                        </constraints>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile3_48" title=""/>
+                                                                        <connections>
+                                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="6nW-2n-Eqk"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoE-CP-hc4">
+                                                                        <rect key="frame" x="230.5" y="0.0" width="66.5" height="67"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="CoE-CP-hc4" secondAttribute="height" id="b39-EF-ADl"/>
+                                                                        </constraints>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile4_48" title=""/>
+                                                                        <connections>
+                                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="tX3-2h-82l"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIO-pm-goT">
+                                                                        <rect key="frame" x="307" y="0.0" width="67" height="67"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="dIO-pm-goT" secondAttribute="height" id="HUD-PB-aDT"/>
+                                                                        </constraints>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile5_48" title=""/>
+                                                                        <connections>
+                                                                            <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="GuW-Ra-lrc"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="A6K-7i-eSV" secondAttribute="bottom" id="SlU-Xa-1Nn"/>
+                                                            <constraint firstItem="A6K-7i-eSV" firstAttribute="leading" secondItem="m2P-84-JK9" secondAttribute="leading" id="h27-OR-JVD"/>
+                                                            <constraint firstItem="A6K-7i-eSV" firstAttribute="top" secondItem="m2P-84-JK9" secondAttribute="top" id="isA-gZ-Xz1"/>
+                                                            <constraint firstAttribute="trailing" secondItem="A6K-7i-eSV" secondAttribute="trailing" id="z9O-co-ZxP"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="lai-v6-mMs" userLabel="Imageload Stack">
+                                                <rect key="frame" x="20" y="277" width="374" height="100"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 했어?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyG-Nq-ZEx" userLabel="titleLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="214" height="19"/>
+                                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xk7-t2-kMg" userLabel="loadButton" customClass="RoundButton" customModule="S_Diary" customModuleProvider="target">
+                                                        <rect key="frame" x="274" y="0.0" width="100" height="100"/>
+                                                        <color key="backgroundColor" red="0.76470588240000004" green="0.59999999999999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="40d-7V-FKf"/>
+                                                            <constraint firstAttribute="width" secondItem="Xk7-t2-kMg" secondAttribute="height" multiplier="1:1" id="zOH-NU-WOk"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="사진 불러오기">
+                                                            <fontDescription key="titleFontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
+                                                            <color key="baseForegroundColor" red="0.9947509766" green="0.9904785156" blue="0.9887695312" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="NO"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="eyG-Nq-ZEx" firstAttribute="top" secondItem="lai-v6-mMs" secondAttribute="top" id="PTR-Kg-Ko0"/>
+                                                    <constraint firstItem="eyG-Nq-ZEx" firstAttribute="leading" secondItem="lai-v6-mMs" secondAttribute="leading" id="gq4-pR-W0v"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LEL-6q-LaQ" userLabel="Contents Stack">
+                                                <rect key="frame" x="20" y="407" width="374" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" text="오늘을 한 문장으로 표현해줘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTd-cc-8aT" userLabel="titleLabel">
+                                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="19"/>
+                                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="XSs-S2-zw3" userLabel="Contents Text Stack">
+                                                        <rect key="frame" x="0.0" y="34" width="374" height="36"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="텍스트" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xWo-ht-25C" userLabel="contentsTextField">
+                                                                <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="30" id="wjM-p9-Pjc"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="20"/>
+                                                                <textInputTraits key="textInputTraits"/>
+                                                            </textField>
+                                                            <view alpha="0.15000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EEU-go-aHq" userLabel="bar">
+                                                                <rect key="frame" x="0.0" y="33" width="374" height="3"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="3" id="Fjn-ir-j8k"/>
+                                                                </constraints>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="XSs-S2-zw3" secondAttribute="trailing" id="35i-19-rhC"/>
+                                                    <constraint firstItem="XSs-S2-zw3" firstAttribute="leading" secondItem="LEL-6q-LaQ" secondAttribute="leading" id="ZUy-26-hDE"/>
+                                                </constraints>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7g-fk-Bte" userLabel="saveButton" customClass="RoundButton" customModule="S_Diary" customModuleProvider="target">
+                                                <rect key="frame" x="127.5" y="577" width="159" height="31"/>
+                                                <color key="backgroundColor" red="0.76470588240000004" green="0.59999999999999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="오늘 하루도 수고했어">
+                                                    <fontDescription key="titleFontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="15"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tapSaveButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="1vA-Gw-bYc"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="Roe-C8-twt" secondAttribute="trailing" id="U8Y-Yr-Wkc"/>
-                                            <constraint firstItem="Roe-C8-twt" firstAttribute="leading" secondItem="H3N-av-TRG" secondAttribute="leading" id="goA-d9-CMP"/>
-                                            <constraint firstAttribute="bottom" secondItem="Roe-C8-twt" secondAttribute="bottom" id="hwY-3e-KYu"/>
-                                            <constraint firstItem="Roe-C8-twt" firstAttribute="top" secondItem="H3N-av-TRG" secondAttribute="top" id="mx7-hX-7xH"/>
+                                            <constraint firstAttribute="bottom" secondItem="T7g-fk-Bte" secondAttribute="bottom" constant="90" id="0Dw-iP-MHL"/>
+                                            <constraint firstItem="T7g-fk-Bte" firstAttribute="top" secondItem="LEL-6q-LaQ" secondAttribute="bottom" constant="100" id="9fk-sX-Z3Y"/>
+                                            <constraint firstItem="qo6-hp-o5L" firstAttribute="top" secondItem="0RK-Ly-jrO" secondAttribute="top" constant="60" id="Hbx-Wn-eG4"/>
+                                            <constraint firstAttribute="trailing" secondItem="spM-iT-po5" secondAttribute="trailing" constant="20" id="IBS-UH-BHC"/>
+                                            <constraint firstItem="LEL-6q-LaQ" firstAttribute="top" secondItem="lai-v6-mMs" secondAttribute="bottom" constant="30" id="anE-rg-iAG"/>
+                                            <constraint firstItem="spM-iT-po5" firstAttribute="leading" secondItem="0RK-Ly-jrO" secondAttribute="leading" constant="20" id="bm3-Ua-WWh"/>
+                                            <constraint firstAttribute="trailing" secondItem="LEL-6q-LaQ" secondAttribute="trailing" constant="20" id="ftJ-GG-f3d"/>
+                                            <constraint firstItem="lai-v6-mMs" firstAttribute="leading" secondItem="0RK-Ly-jrO" secondAttribute="leading" constant="20" id="kWb-T3-fiW"/>
+                                            <constraint firstAttribute="trailing" secondItem="qo6-hp-o5L" secondAttribute="trailing" constant="20" id="m4m-ye-78b"/>
+                                            <constraint firstItem="LEL-6q-LaQ" firstAttribute="leading" secondItem="0RK-Ly-jrO" secondAttribute="leading" constant="20" id="s6Z-Xq-HH4"/>
+                                            <constraint firstAttribute="trailing" secondItem="lai-v6-mMs" secondAttribute="trailing" constant="20" id="sXc-Ok-dPk"/>
+                                            <constraint firstItem="qo6-hp-o5L" firstAttribute="leading" secondItem="0RK-Ly-jrO" secondAttribute="leading" constant="20" id="uPz-Jy-sVD"/>
+                                            <constraint firstItem="spM-iT-po5" firstAttribute="top" secondItem="qo6-hp-o5L" secondAttribute="bottom" constant="60" id="uYe-Ty-LMf"/>
+                                            <constraint firstItem="lai-v6-mMs" firstAttribute="top" secondItem="spM-iT-po5" secondAttribute="bottom" constant="30" id="wy6-O1-ER9"/>
+                                            <constraint firstItem="T7g-fk-Bte" firstAttribute="centerX" secondItem="0RK-Ly-jrO" secondAttribute="centerX" id="xsL-Sr-vBL"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="i4u-du-6JF">
-                                <rect key="frame" x="25" y="358" width="364" height="100"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 했어?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCB-9a-VVc">
-                                        <rect key="frame" x="0.0" y="0.0" width="204" height="19"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkI-UO-SuM" customClass="RoundButton" customModule="S_Diary" customModuleProvider="target">
-                                        <rect key="frame" x="264" y="0.0" width="100" height="100"/>
-                                        <color key="backgroundColor" red="0.76470588240000004" green="0.59999999999999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="BOH-el-C1b"/>
-                                            <constraint firstAttribute="width" secondItem="HkI-UO-SuM" secondAttribute="height" multiplier="1:1" id="Loc-ah-QQF"/>
-                                        </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="사진 불러오기">
-                                            <fontDescription key="titleFontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
-                                            <color key="baseForegroundColor" red="0.9947509765625" green="0.990478515625" blue="0.98876953125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </buttonConfiguration>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="NO"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
-                                </subviews>
                                 <constraints>
-                                    <constraint firstItem="nCB-9a-VVc" firstAttribute="leading" secondItem="i4u-du-6JF" secondAttribute="leading" id="WJU-zZ-L7O"/>
-                                    <constraint firstItem="nCB-9a-VVc" firstAttribute="top" secondItem="i4u-du-6JF" secondAttribute="top" id="kIk-OO-133"/>
+                                    <constraint firstItem="0RK-Ly-jrO" firstAttribute="leading" secondItem="BsL-5C-qUl" secondAttribute="leading" id="7pN-Yi-scW"/>
+                                    <constraint firstItem="0RK-Ly-jrO" firstAttribute="width" secondItem="BsL-5C-qUl" secondAttribute="width" id="LnD-zt-BpN"/>
+                                    <constraint firstAttribute="bottom" secondItem="0RK-Ly-jrO" secondAttribute="bottom" id="cqH-36-uTs"/>
+                                    <constraint firstAttribute="trailing" secondItem="0RK-Ly-jrO" secondAttribute="trailing" id="gDm-pX-mEX"/>
+                                    <constraint firstItem="0RK-Ly-jrO" firstAttribute="top" secondItem="BsL-5C-qUl" secondAttribute="top" id="kUB-FQ-Z87"/>
                                 </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rL2-FZ-KAm">
-                                <rect key="frame" x="25" y="498" width="364" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘을 한 문장으로 표현해줘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sES-0o-ej9">
-                                        <rect key="frame" x="0.0" y="0.0" width="206.5" height="19"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="hIv-r2-Kly">
-                                        <rect key="frame" x="0.0" y="34" width="364" height="36"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="텍스트" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cE4-8r-AJa">
-                                                <rect key="frame" x="0.0" y="0.0" width="364" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="ag9-1i-Ajn"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <view alpha="0.15000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oay-pc-zaT">
-                                                <rect key="frame" x="0.0" y="33" width="364" height="3"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="3" id="dM3-0J-vOI"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="hIv-r2-Kly" secondAttribute="trailing" id="cHp-P4-VCA"/>
-                                    <constraint firstItem="hIv-r2-Kly" firstAttribute="leading" secondItem="rL2-FZ-KAm" secondAttribute="leading" id="wQD-H0-OPM"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kXD-ot-D2U">
-                                <rect key="frame" x="210" y="618" width="179" height="27"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="fR8-Hv-7AS">
-                                        <rect key="frame" x="0.0" y="0.0" width="179" height="19"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-hp-uCd">
-                                                <rect key="frame" x="0.0" y="0.0" width="63" height="19"/>
-                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="에서 남기는 글" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdS-O5-lSq">
-                                                <rect key="frame" x="74" y="0.0" width="105" height="19"/>
-                                                <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <view alpha="0.15000000596046448" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIM-vf-z6x">
-                                        <rect key="frame" x="0.0" y="24" width="179" height="3"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="3" id="8VN-LU-Myv"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                            </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETu-5J-bxx" customClass="RoundButton" customModule="S_Diary" customModuleProvider="target">
-                                <rect key="frame" x="127.5" y="685" width="159" height="31"/>
-                                <color key="backgroundColor" red="0.76470588240000004" green="0.59999999999999998" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="오늘 하루도 수고했어">
-                                    <fontDescription key="titleFontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="15"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="tapSaveButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="hfx-g4-vn0"/>
-                                </connections>
-                            </button>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="frh-y8-x6L"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="i4u-du-6JF" firstAttribute="top" secondItem="h3Z-nV-9Vc" secondAttribute="bottom" constant="40" id="00Q-Bz-Wcr"/>
-                            <constraint firstItem="Wox-hd-Ehe" firstAttribute="leading" secondItem="qcO-ie-Swh" secondAttribute="leading" constant="20" id="2E8-ao-ewl"/>
-                            <constraint firstItem="frh-y8-x6L" firstAttribute="trailing" secondItem="kXD-ot-D2U" secondAttribute="trailing" constant="25" id="AMy-ra-cfD"/>
-                            <constraint firstItem="BZf-Cf-tjI" firstAttribute="leading" secondItem="frh-y8-x6L" secondAttribute="leading" constant="25" id="IUV-0G-DVF"/>
-                            <constraint firstItem="frh-y8-x6L" firstAttribute="trailing" secondItem="rL2-FZ-KAm" secondAttribute="trailing" constant="25" id="Uha-Ds-rFw"/>
-                            <constraint firstItem="h3Z-nV-9Vc" firstAttribute="top" secondItem="Wox-hd-Ehe" secondAttribute="bottom" constant="45" id="UzX-d3-VP1"/>
-                            <constraint firstItem="ETu-5J-bxx" firstAttribute="centerX" secondItem="frh-y8-x6L" secondAttribute="centerX" id="Z78-XL-sR2"/>
-                            <constraint firstItem="rL2-FZ-KAm" firstAttribute="leading" secondItem="frh-y8-x6L" secondAttribute="leading" constant="25" id="Zva-v6-0he"/>
-                            <constraint firstItem="kXD-ot-D2U" firstAttribute="top" secondItem="rL2-FZ-KAm" secondAttribute="bottom" constant="50" id="dAW-wC-xfX"/>
-                            <constraint firstAttribute="trailing" secondItem="Wox-hd-Ehe" secondAttribute="trailing" constant="20" id="dNa-Vj-KE9"/>
-                            <constraint firstItem="ETu-5J-bxx" firstAttribute="top" secondItem="kXD-ot-D2U" secondAttribute="bottom" constant="40" id="gs7-ya-4Hg"/>
-                            <constraint firstItem="frh-y8-x6L" firstAttribute="trailing" secondItem="i4u-du-6JF" secondAttribute="trailing" constant="25" id="hzo-C1-Qrj"/>
-                            <constraint firstItem="h3Z-nV-9Vc" firstAttribute="leading" secondItem="frh-y8-x6L" secondAttribute="leading" constant="25" id="jTV-ug-WOf"/>
-                            <constraint firstAttribute="trailing" secondItem="h3Z-nV-9Vc" secondAttribute="trailing" constant="25" id="lc7-g1-8Vw"/>
-                            <constraint firstItem="i4u-du-6JF" firstAttribute="leading" secondItem="frh-y8-x6L" secondAttribute="leading" constant="25" id="nwW-K0-Q7P"/>
-                            <constraint firstItem="frh-y8-x6L" firstAttribute="trailing" secondItem="BZf-Cf-tjI" secondAttribute="trailing" constant="25" id="szs-Wr-dmu"/>
-                            <constraint firstItem="rL2-FZ-KAm" firstAttribute="top" secondItem="i4u-du-6JF" secondAttribute="bottom" constant="40" id="t9I-i7-yv7"/>
-                            <constraint firstItem="Wox-hd-Ehe" firstAttribute="top" secondItem="BZf-Cf-tjI" secondAttribute="bottom" constant="5" id="vJL-yW-HJj"/>
-                            <constraint firstItem="BZf-Cf-tjI" firstAttribute="top" secondItem="frh-y8-x6L" secondAttribute="top" constant="60" id="wWA-aM-YZx"/>
+                            <constraint firstItem="frh-y8-x6L" firstAttribute="bottom" secondItem="BsL-5C-qUl" secondAttribute="bottom" id="2hU-6T-qs1"/>
+                            <constraint firstItem="frh-y8-x6L" firstAttribute="trailing" secondItem="BsL-5C-qUl" secondAttribute="trailing" id="fe7-rU-3Na"/>
+                            <constraint firstItem="BsL-5C-qUl" firstAttribute="top" secondItem="frh-y8-x6L" secondAttribute="top" id="kgN-gJ-xPf"/>
+                            <constraint firstItem="BsL-5C-qUl" firstAttribute="leading" secondItem="frh-y8-x6L" secondAttribute="leading" id="mT2-f5-AQH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="오늘의 한줄" id="WMh-Io-u76">
@@ -440,14 +436,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="contentsTextField" destination="cE4-8r-AJa" id="MAa-fG-CeA"/>
-                        <outlet property="feelButton1" destination="YG6-Jg-h8W" id="VPu-d8-Pvu"/>
-                        <outlet property="feelButton2" destination="Cfy-L5-iKZ" id="4i0-UE-lfm"/>
-                        <outlet property="feelButton3" destination="ih4-JE-Kah" id="1Pf-dc-gyx"/>
-                        <outlet property="feelButton4" destination="nCz-Rt-cYz" id="aeb-W6-9i3"/>
-                        <outlet property="feelButton5" destination="tz0-yW-N6Z" id="1JB-sF-9a9"/>
-                        <outlet property="selectFeelingView" destination="H3N-av-TRG" id="CyE-vh-J2x"/>
-                        <outlet property="todayLabel" destination="nbp-o0-rc0" id="RRb-UK-mq5"/>
+                        <outlet property="contentsTextField" destination="xWo-ht-25C" id="n8j-Ke-f9W"/>
+                        <outlet property="feelButton1" destination="b6A-1a-j6F" id="my5-RE-ksB"/>
+                        <outlet property="feelButton2" destination="K8e-kf-I8C" id="5rE-KV-pcW"/>
+                        <outlet property="feelButton3" destination="02T-Dm-JsO" id="MlO-A3-dRC"/>
+                        <outlet property="feelButton4" destination="CoE-CP-hc4" id="KCv-GP-Ugf"/>
+                        <outlet property="feelButton5" destination="dIO-pm-goT" id="CR6-oR-sDS"/>
+                        <outlet property="todayLabel" destination="vBc-Hn-nGX" id="Uck-RK-N7H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EaZ-Ik-6QA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

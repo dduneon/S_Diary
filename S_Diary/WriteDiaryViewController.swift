@@ -10,8 +10,6 @@ import UIKit
 
 class WriteDiaryViewController: UIViewController {
     @IBOutlet weak var contentsTextField: UITextField!
-    @IBOutlet weak var todayImageView: UIImageView!
-    @IBOutlet weak var selectFeelingView: UIView!
     @IBOutlet weak var todayLabel: UILabel!
     @IBOutlet weak var feelButton1: UIButton!
     @IBOutlet weak var feelButton2: UIButton!
