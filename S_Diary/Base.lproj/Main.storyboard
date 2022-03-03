@@ -68,16 +68,16 @@
                                                     </constraints>
                                                 </stackView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" image="testImage" translatesAutoresizingMaskIntoConstraints="NO" id="eZZ-IF-FTl">
-                                                    <rect key="frame" x="0.0" y="34" width="414" height="233"/>
+                                                    <rect key="frame" x="0.0" y="34" width="414" height="414"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="eZZ-IF-FTl" secondAttribute="height" multiplier="16:9" id="q9D-M6-Vcd"/>
+                                                        <constraint firstAttribute="width" secondItem="eZZ-IF-FTl" secondAttribute="height" multiplier="1:1" id="q9D-M6-Vcd"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fYg-4m-Dba">
-                                                    <rect key="frame" x="10" y="277" width="394" height="24"/>
+                                                    <rect key="frame" x="10" y="458" width="394" height="19"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="smile2_48" translatesAutoresizingMaskIntoConstraints="NO" id="dMe-8d-F4G">
-                                                            <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="24" height="19"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="24" id="6yB-CK-DBF"/>
                                                                 <constraint firstAttribute="width" constant="24" id="Hn4-AE-pf7"/>
@@ -85,7 +85,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contents" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHe-dl-5e1">
-                                                            <rect key="frame" x="39" y="0.0" width="355" height="24"/>
+                                                            <rect key="frame" x="39" y="0.0" width="355" height="19"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -96,7 +96,7 @@
                                                         <constraint firstItem="dMe-8d-F4G" firstAttribute="top" secondItem="fYg-4m-Dba" secondAttribute="top" id="Ltd-v3-EVP"/>
                                                     </constraints>
                                                 </stackView>
-                                                <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kZv-x6-e5v">
+                                                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kZv-x6-e5v">
                                                     <rect key="frame" x="0.0" y="497" width="414" height="3"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -181,21 +181,21 @@
                                 <rect key="frame" x="25" y="148" width="364" height="25"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="1월 1일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-o0-rc0">
-                                        <rect key="frame" x="0.0" y="0.0" width="40.5" height="25"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="25"/>
                                         <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="어느" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i2D-1Y-grF">
-                                        <rect key="frame" x="50.5" y="0.0" width="42" height="25"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="23"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="60" y="0.0" width="38.5" height="25"/>
+                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="21"/>
+                                        <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="맑은 날" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s01-IT-uMt">
-                                        <rect key="frame" x="102.5" y="0.0" width="72.5" height="25"/>
-                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="23"/>
-                                        <nil key="textColor"/>
+                                        <rect key="frame" x="108.5" y="0.0" width="66.5" height="25"/>
+                                        <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="21"/>
+                                        <color key="textColor" red="0.470672607421875" green="0.1374359130859375" blue="0.11328887939453125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="zPo-f0-uFC">
@@ -319,7 +319,7 @@
                                             <color key="baseForegroundColor" red="0.9947509765625" green="0.990478515625" blue="0.98876953125" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="NO"/>
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
@@ -545,7 +545,7 @@
         <image name="align.vertical.bottom.fill" catalog="system" width="128" height="114"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="smile1_48" width="48" height="48"/>
+        <image name="smile1_48" width="53" height="48"/>
         <image name="smile2_48" width="48" height="48"/>
         <image name="smile3_48" width="48" height="48"/>
         <image name="smile4_48" width="48" height="48"/>
