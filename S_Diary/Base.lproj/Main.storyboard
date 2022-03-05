@@ -17,7 +17,7 @@
         <!--나의 일기-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController interfaceStyle="light" id="BYZ-38-t0r" customClass="ViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,7 +172,7 @@
         <!--오늘의 한줄-->
         <scene sceneID="9w4-mO-2Bt">
             <objects>
-                <viewController storyboardIdentifier="WriteDiaryViewController" id="xtP-Tk-CAt" customClass="WriteDiaryViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WriteDiaryViewController" interfaceStyle="light" id="xtP-Tk-CAt" customClass="WriteDiaryViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qcO-ie-Swh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,13 +201,13 @@
                                                                 <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="맑은 날" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-u7-YcN" userLabel="weatherLabel">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="맑은 날" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ks-u7-YcN" userLabel="weatherLabel">
                                                                 <rect key="frame" x="121" y="0.0" width="63" height="25"/>
                                                                 <fontDescription key="fontDescription" name="MuseumClassicLight" family="MuseumClassic" pointSize="20"/>
                                                                 <color key="textColor" red="0.4706726074" green="0.1374359131" blue="0.1132888794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <view contentMode="scaleToFill" horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="cKt-je-7fx" userLabel="view">
+                                                            <view contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="cKt-je-7fx" userLabel="view">
                                                                 <rect key="frame" x="194" y="0.0" width="180" height="25"/>
                                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             </view>
@@ -390,7 +390,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="T7g-fk-Bte" secondAttribute="bottom" constant="90" id="0Dw-iP-MHL"/>
                                             <constraint firstItem="T7g-fk-Bte" firstAttribute="top" secondItem="LEL-6q-LaQ" secondAttribute="bottom" constant="100" id="9fk-sX-Z3Y"/>
@@ -485,7 +485,7 @@
         <!--통계-->
         <scene sceneID="bNy-wg-vtW">
             <objects>
-                <viewController id="nMp-Zj-1GY" customClass="StatViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController interfaceStyle="light" id="nMp-Zj-1GY" customClass="StatViewController" customModule="S_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sKF-oa-AKM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

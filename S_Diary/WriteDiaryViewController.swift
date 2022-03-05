@@ -21,6 +21,7 @@ class WriteDiaryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         todayLabel.text = dateToString(date: Date())
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapBegan(sender:))))
     }
     
     private func dateToString(date: Date) -> String {
@@ -33,15 +34,18 @@ class WriteDiaryViewController: UIViewController {
     @IBAction func tapSaveButton(_ sender: UIButton) {
         guard let content = contentsTextField.text else { return }
         
-        var diary = Diary(date: Date(), content: content, location: "test")
+        let diary = Diary(date: Date(), content: content, location: "test")
         
         NotificationCenter.default.post(name: NSNotification.Name("Save"), object: diary)
-    }
-    
-    @IBAction func tapCancelButton(_ sender: UIButton) {
     }
     
     @IBAction func tapFeelingButton(_ sender: Any) {
     }
     
+    @objc func tapBegan(sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            self.view.endEditing(true)
+        }
+        sender.cancelsTouchesInView = false
+    }
 }
