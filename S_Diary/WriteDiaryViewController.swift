@@ -39,7 +39,8 @@ class WriteDiaryViewController: UIViewController {
         NotificationCenter.default.post(name: NSNotification.Name("Save"), object: diary)
     }
     
-    @IBAction func tapFeelingButton(_ sender: Any) {
+    @IBAction func tapFeelingButton(_ sender: UIButton) {
+
     }
     
     @objc func tapBegan(sender: UITapGestureRecognizer) {
