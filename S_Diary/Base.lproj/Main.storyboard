@@ -254,13 +254,13 @@
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="A6K-7i-eSV" userLabel="Feelings Stack">
                                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="67"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-1a-j6F">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6A-1a-j6F">
                                                                         <rect key="frame" x="0.0" y="0.0" width="67" height="67"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="b6A-1a-j6F" secondAttribute="height" id="dLZ-fk-KeI"/>
                                                                         </constraints>
                                                                         <state key="normal" title="Button"/>
-                                                                        <buttonConfiguration key="configuration" style="plain" image="smile1_48" imagePadding="0.0"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="smile1_48" title="" imagePadding="0.0"/>
                                                                         <connections>
                                                                             <action selector="tapFeelingButton:" destination="xtP-Tk-CAt" eventType="touchUpInside" id="9hm-Zo-u2m"/>
                                                                         </connections>

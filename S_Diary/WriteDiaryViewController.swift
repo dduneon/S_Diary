@@ -17,11 +17,20 @@ class WriteDiaryViewController: UIViewController {
     @IBOutlet weak var feelButton4: UIButton!
     @IBOutlet weak var feelButton5: UIButton!
 
+    var todayDate: Date?
+    var feelingImage: UIImage?
+    var contentsText: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        todayLabel.text = dateToString(date: Date())
+        configureView()
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapBegan(sender:))))
+    }
+    
+    private func configureView() {
+        // 기분 버튼 초기값 설정하기
+        todayDate = Date()
+        todayLabel.text = dateToString(date: todayDate!)
     }
     
     private func dateToString(date: Date) -> String {
@@ -40,7 +49,20 @@ class WriteDiaryViewController: UIViewController {
     }
     
     @IBAction func tapFeelingButton(_ sender: UIButton) {
-
+        let buttons: [UIButton] = [feelButton1, feelButton2, feelButton3, feelButton4, feelButton5]
+        
+        for button in buttons {
+            if sender == button {
+                button.alpha = 1
+            } else {
+                button.alpha = 0.2
+            }
+            
+        }
+    }
+    
+    func changeFeeling(feel: UIImage) {
+        
     }
     
     @objc func tapBegan(sender: UITapGestureRecognizer) {
